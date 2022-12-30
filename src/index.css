@@ -1,0 +1,82 @@
+.body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: auto;
+  margin: 20px 20px;
+}
+
+container {
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.bienvenida {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.bienvenida2 {
+  color: rgb(63, 161, 241);
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.frase {
+
+  font-size: 30px;
+  color: rgb(67, 11, 233);
+  font-family: sans-serif;
+  font-weight: bold;
+  /* border:2px solid red;*/
+  margin-top: 50px;
+  letter-spacing: 0.8px;
+  line-height: 1.2;
+  text-align: center;
+  block-size: 20px;
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+
+.frase {
+  width: 100%;
+  color: rgb(129, 12, 168);
+  height: 100%;
+  block-size: 25%;
+  font-size: 25px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+
+.frase {
+  width: 100%;
+  height: 24%;
+  block-size: 25%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 25px;
+  color: black;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
